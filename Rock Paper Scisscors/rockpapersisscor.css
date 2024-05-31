@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #a2d2ff;
+}
+.images {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.images img {
+  height: 135px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.images button {
+  background-color: #a2d2ff;
+  border: hidden;
+}
+.images img:hover {
+  border: 2px solid black;
+}
+#title {
+  background-color: #cdb4db;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+.scores {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.ply-scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+.comp-scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+.makeplay button {
+  height: 40px;
+  border-radius: 0.5rem;
+  background-color: #ffafcc;
+  color: black;
+  line-height: 40px;
+  padding: 0px 1rem 0px 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.makeplay {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  text-align: center;
+  /* height: 23rem; */
+  /* line-height: 23rem; */
+  margin-bottom: 1rem;
+}
+.hide {
+  display: none;
+}

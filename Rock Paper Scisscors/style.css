@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.dark {
+  background-color: black;
+}
+.block {
+  background-color: bisque;
+  /* display: flex;
+  flex-direction: column;
+  gap: 3rem; */
+  border: 1px solid black;
+  height: 300px;
+}
+/* .p1 {
+}
+.p2 {
+} */
+/* .block img:hover {
+  height: 50px;
+  transform: rota(1.2);
+} */
